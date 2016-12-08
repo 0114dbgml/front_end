@@ -1,0 +1,123 @@
+selector
+1. Tag
+2. Id
+3. Class
+
+ex) <div id="header" class="header">헤더영역</header>
+
+
+css 포함방법
+
+1. inline 방법
+
+ex) <div style="color:red"></div>
+ -> attribute 형태로 쓰는 방식
+
+2. embed (internal) 방법
+
+ex)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>피투 피존투</title>
+  <!--css-->
+  <style>
+   p {color:red}
+  </style>
+  <!--//css-->
+</head>
+ -> <head> 태그 영역안에 <style> 태그를 넣는 방법
+
+
+3. external 방법
+
+ex)
+파일 : style.css
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>피투 피존투</title>
+  <!--css-->
+  <link rel="stylesheets" href="style.css" />
+  <!--//css-->
+</head>
+  -> 독립된 파일을 만들고 그 파일을 불러내는 방식
+
+문법
+
+selector { property : property 값; } -> 이게 한 세트
+
+여러개 들어가는 모양
+selector {
+property : property 값;
+property : property 값;
+property : property 값;
+property : property 값;
+}
+-> 한줄로 써도 되지만 가독성을 위해 줄바꿈을 하도록 한다.
+
+
+***** border property 정리 *****
+1. 네방향 모두 공통적용
+  border : 굵기 종류 색 ;
+
+
+2. 각각의 방향에 공통적용
+  border-top: 굵기 종류 색 ;
+  border-right: 굵기 종류 색 ;
+  border-bottom: 굵기 종류 색 ;
+  border-left: 굵기 종류 색 ;
+
+3. 각각의 방향, 각각의 CSS속성 적용
+   border-top-style,
+   border-top-width,
+   border-top-color,
+   border-right-style,
+   border-right-width,
+   border-right-color,
+
+
+-----
+
+***** CSS 단위 *****
+
+  px: 숫자 고정값
+
+  em : body에 적용된 기본 폰트 크기의 배수
+
+  % : parent tag 영역의 비율로 크기 결정
+
+    ex)
+    -HTML
+      <div>
+        <p>단락</p>
+      </div>
+
+    -CSS
+
+    p{width:50%;}
+
+      => p 태그의 영역 가로 길이는 div 태그 영역의 50%(절반)의 크기
+
+-----
+
+***** width / max-width / min-width / *****
+
+
+
+***** float property *****
+
+float: left;
+float: right;
+float: none;
+
+
+1. float&clear
+- float 된 영역의 부모 element 는 높이가 인식되지 않으므로, 하단 영역과의 관계가 제대로 표현되지 않을 수 있음
+
+- 하단 영역의 clear:both 가 제대로 동작하게 하려면, float 된 영역의 parent element 가 높이 인식되어야 함
+
+- float 된 영역의 부모 element 의 높이를 인식시키는 방법 4가지 커밍순!

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+    #result{
+      width:200px;
+      height: 200px;
+      background: yellow;
+      color:red;
+      font-size: 72px;
+
+      position: absolute;
+      top: 50%;
+      left:50%;
+      margin:-100px 0 0 -100px;
+
+      text-align: center;
+      line-height: 200px;
+    }
+
+  </style>
+  <script>
+
+//    var first = window.prompt('첫번째 값을 입력하세요');
+//    var second = window.prompt('두번째 값을 입력하세요');
+//    var operator = window.prompt('계산종류를 입력하세요(+,-,*,/');
+
+
+
+    function cal(){
+      var first = document.getElementById('first').value;
+      var second = document.getElementById('second').value;
+      var operator = document.getElementById('operator').value;
+
+      var result = 0;
+
+      first = parseInt(first);
+      second = parseInt(second);
+
+      if( operator == '+' ){
+        result = first + second;
+      } else if( operator == '-' ){
+        result = first - second;
+      } else if( operator == '*' ){
+        result = first * second;
+      } else {
+        result = first / second;
+      }
+
+//      document.write('<p>');
+//      document.write(result);
+//      document.write('</p>');
+
+      //result 결과값을 html형태로 만들어줌
+      var node = document.createTextNode("result");
+      //id=result인 태그 영역을 가져옴
+
+      //div 태그 새로 생성
+      var div = document.createElement('div');
+
+
+      var element = document.getElementById("body");
+      //id=result인 태그 영역에 생성된 result 넣어줌
+      element.appendChild(node);
+
+      body.appendChild(node);
+
+      // => <div id = "result">100</div>
+
+
+    }
+
+
+  </script>
+</head>
+<body id="body">
+
+
+  <div>
+    <label>첫번째 값 :</label>
+    <input type="text" id="first" />
+  </div>
+
+  <div>
+    <label>두번째 값 :</label>
+    <input type="text" id="second" />
+  </div>
+
+  <div>
+    <label>계산종류(+,-,*,/) :</label>
+    <input type="text" id="operator" />
+  </div>
+
+
+  <div>
+    <button type="button" onclick="cal();">뀨</button>
+  </div>
+
+
+</body>
+</html>

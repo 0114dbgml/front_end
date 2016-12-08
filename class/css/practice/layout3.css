@@ -1,0 +1,70 @@
+
+.wrap{
+  width: 980px;
+  margin:0 auto;
+}
+
+.header{
+  height: 100px;
+  background: whitesmoke;
+}
+
+.container:after{
+  content:"";
+  display:block;
+  clear: both;
+
+}
+
+.left{
+  width:350px;
+  float: left;
+}
+
+.first-tile{
+  height:330px;
+  background: blue;
+}
+
+.and-another{
+  height: 500px;
+  background: skyblue;
+}
+
+.right{
+  width:630px;
+  float:left;
+}
+
+
+.another-tile{
+  height: 600px;
+  background: yellow;
+}
+
+
+.the-forth-one {
+  width: 400px;
+  height: 230px;
+  background: pink;
+  float: left;
+}
+
+
+.the-last{
+  width: 230px;
+  height: 230px;
+  background: peachpuff;
+  float: left;
+}
+
+.footer{
+  height: 100px;
+  background: whitesmoke;
+}
+
+
+
+
+
+

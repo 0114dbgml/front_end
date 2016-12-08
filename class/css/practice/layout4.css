@@ -1,0 +1,53 @@
+.wrap{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+  background: burlywood;
+}
+
+.container:after{
+  content:"";
+  display:block;
+  clear: both;
+}
+
+.contents1{
+  width: 315px;
+  height: 800px;
+  background: palegoldenrod;
+  float: left;
+}
+
+.contents2{
+  width: 315px;
+  height: 800px;
+  background: peachpuff;
+  float: left;
+}
+
+.right-col{
+  width: 350px;
+  height: 800px;
+  float: left;
+}
+
+.contents3{
+  width: 350px;
+  height: 400px;
+  background: yellow;
+}
+
+.contents4{
+  width: 350px;
+  height: 400px;
+  background: gold;
+}
+
+
+.footer{
+  height: 100px;
+  background: burlywood;
+}

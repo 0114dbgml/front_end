@@ -1,0 +1,121 @@
+.wrap{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 200px;
+  background: yellow;
+}
+
+.container:after{
+  content:"";
+  display:block;
+  clear: both;
+}
+
+.top{
+  width: 980px;
+  height: 190px;
+  margin-top: 10px;
+  float: left;
+}
+
+.contents1{
+  width: 485px;
+  height: 190px;
+  margin-right: 10px;
+  background: greenyellow;
+  float: left;
+}
+
+.contents2{
+  width: 485px;
+  height: 190px;
+  background: greenyellow;
+  float: left;
+}
+
+.middle{
+  float: left;
+  margin-top: 10px;
+}
+
+.left{
+  width: 300px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+.contents3{
+  width: 300px;
+  height: 190px;
+  background: cornflowerblue;
+  float: left;
+}
+
+.contents4{
+  width: 300px;
+  height: 190px;
+  background: cornflowerblue;
+  float: left;
+  margin-top: 10px;
+}
+
+.center{
+  width: 360px;
+  height: 390px;
+  float: left;
+  margin-right: 10px;
+  background: hotpink;
+}
+
+.right{
+  width: 300px;
+  float: left;
+}
+
+.contents5{
+  width: 300px;
+  height: 190px;
+  background: slateblue;
+  float: left;
+}
+
+.contents6{
+  width: 300px;
+  height: 190px;
+  background: slateblue;
+  float: left;
+  margin-top: 10px;
+}
+
+.bottom{
+  float: left;
+  margin-top: 10px;
+}
+
+.contents7{
+  width: 670px;
+  height: 190px;
+  margin-right: 10px;
+  background-color: darkorange;
+  float: left;
+}
+
+.contents8{
+  width: 300px;
+  height: 190px;
+  background-color: darkorange;
+  float: left;
+}
+
+.footer{
+  width: 980px;
+  height: 190px;
+  margin-top: 10px;
+  background: yellow;
+  float: left;
+}
+

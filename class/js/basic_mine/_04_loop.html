@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script>
+
+    var a=0;
+
+    for(var i=1; i<=100; i++){
+      a = a+i;
+    }
+
+    document.write('<p>');
+    document.write(a);
+    document.write('</p>');
+
+
+    //a 결과값을 html 형태로 만들어줌
+    var node = document.createTextNode(a);
+    //div 태그 새로 생성
+    var div = document.createElement('div');
+    //div 태그에 result id 추가
+    div.setAttribute('id','result');
+    //id=body 인 태그 영역에 생선된 a 결과값을 넣어줌
+    element.appendChild(node);
+
+    document.write(div);
+
+
+    // => <div id = "result">100</div>
+
+  </script>
+</head>
+<body id="body">
+
+</body>
+</html>
