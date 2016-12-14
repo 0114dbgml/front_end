@@ -108,6 +108,7 @@
   background-position: -41px 0;
 }
 
+
 .gnb{
   float: right;
 
@@ -126,7 +127,6 @@
   background: url(../images/gnb_menu.png) no-repeat;
   text-indent: -9999em;
   padding: 17px 0;
-
 }
 
 .gnb-depth1-link.flavor{

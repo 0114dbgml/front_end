@@ -1,0 +1,431 @@
+
+.wrap{
+  width:1903px;
+}
+
+.fix-width{
+  width: 1060px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.inner{
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+}
+
+.logo>a{
+  width:190px;
+  height: 90px;
+  text-indent: -9999em;
+  display: block;
+
+  background: url(../images/logo.png) no-repeat;
+}
+
+
+.logo{
+  float: left;
+}
+
+
+.gnb{
+  float: right;
+  position: relative;
+  right: -42px;
+}
+
+.gnb-depth1{
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+.gnb-depth1:last-child{
+  margin-right: 0;
+}
+
+.gnb-depth1-item{
+  float: left;
+  width: 180px;
+  text-align: center;
+  background: url(../images/gnbBg.png) no-repeat;
+  position: relative;
+}
+
+.gnb-depth1-item:nth-child(3){
+  right:21px;
+}
+
+.gnb-depth1-item:nth-child(2){
+  right:45px;
+}
+
+.gnb-depth1-item:nth-child(1){
+  right:68px;
+}
+
+.gnb-depth1-link{
+  display: block;
+  height: 16px;
+  text-indent: -9999em;
+  background: url(../images/menu1.png) no-repeat;
+}
+
+.gnb-depth1-item:nth-child(1) .gnb-depth1-link{
+  width: 94px;
+  background-position: 0 0;
+}
+
+.gnb-depth2{
+  padding: 23px 25px;
+}
+
+.gnb-depth2-item{
+  padding: 0 0 15px 0;
+  background: #f6f6e8;
+}
+
+.gnb-depth2-link{
+  color:#666;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.gnb{*/
+  /*float: right;*/
+/*}*/
+
+
+/*.gnb-depth1-item{*/
+  /*float: left;*/
+  /*padding: 30px 32px;*/
+/*}*/
+
+
+/*.gnb-depth1-link{*/
+  /*display: block;*/
+  /*top: 0;*/
+  /*width: 100%;*/
+  /*text-align: center;*/
+/*}*/
+
+
+.gnb-depth2{
+  display:none;
+}
+
+
+
+.visual-wrap{
+  position: relative;
+}
+
+
+.main-visual{
+  position: relative;
+  width: 1064px;
+  height: 420px;
+  background: url(../images/visual0.jpg) no-repeat 0 -110px;
+  background-size: 1060px 706px;
+  text-indent: -9999em;
+}
+
+
+.box{
+  width: 560px;
+  height: 208px;
+  position: absolute;
+  left: 250px;
+  top:105px;
+}
+
+.safe-move{
+  position: absolute;
+  left: 322px;
+  top:155px;
+}
+
+.message{
+  position: absolute;
+  left: 250px;
+  top:230px;
+}
+
+.campain{
+  position: relative;
+  height: 40px;
+  margin:15px 0;
+}
+
+.arrow1{
+  float: left;
+}
+
+.campain-title{
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  margin-top: 12px;
+}
+
+.arrow2{
+  float:right;
+}
+
+.campain-left{
+  float: left;
+}
+
+.campain-right{
+  float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
+/*.footer{*/
+  /*width:100%;*/
+  /*height: 130px;*/
+  /*background: #323232;*/
+/*}*/
+
+/*.footer-left{*/
+  /*float: left;*/
+/*}*/
+
+/*.footer1-list{*/
+  /*float:left;*/
+  /*padding: 0 13px;*/
+/*}*/
+
+/*.footer1-link{*/
+  /*color:#aeaeae;*/
+  /*display: block;*/
+  /*float: left;*/
+  /*position: relative;*/
+  /*padding: 13px;*/
+/*}*/
+
+/*.copyright{*/
+  /*float:left;*/
+  /*display:block;*/
+  /*color:#aeaeae;*/
+  /*position: relative;*/
+  /*padding: 13px;*/
+/*}*/
+
+/*.footer-right{*/
+  /*float: right;*/
+/*}*/
+
+/*.footer2-list{*/
+  /*float:right;*/
+  /*display: block;*/
+/*}*/
+
+/*.footer2-link{*/
+  /*color:#aeaeae;*/
+  /*display: block;*/
+  /*float: right;*/
+  /*position: relative;*/
+  /*padding: 13px;*/
+/*}*/
+
+
+/*.btn{*/
+  /*float: right;*/
+  /*position: relative;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+=======
+.footer{
+  width:100%;
+  height: 130px;
+  background: #323232;
+  position: relative;
+}
+
+.footer-left{
+  float: left;
+  padding: 43px 0;
+}
+
+.footer1-list{
+}
+
+.footer1-item{
+  float: left;
+  padding: 0 13px;
+  border-right: 1px solid #aeaeae;
+  letter-spacing: -0.5px;
+  
+}
+
+.footer1-item:first-child{
+  padding-left: 0;
+}
+
+.footer1-item:last-child{
+  border-right: none;
+}
+
+.footer1-link{
+  color:#aeaeae;
+  font-size: 14px;
+}
+
+.copyright{
+  color:#aeaeae;
+  font-size: 14px;
+  margin: 10px 0 0;
+
+}
+>>>>>>> a5523717daa86346c3bb7f98faafcb88b577b5de
+
+
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after{
+  content:"";
+=======
+.footer2-list{
+>>>>>>> a5523717daa86346c3bb7f98faafcb88b577b5de
+  display: block;
+  clear: both;
+}
+
+.footer2-link{
+  color:#aeaeae;
+}
+
+<<<<<<< HEAD
+=======
+.btn{
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+
+>>>>>>> a5523717daa86346c3bb7f98faafcb88b577b5de
+
+
+
+

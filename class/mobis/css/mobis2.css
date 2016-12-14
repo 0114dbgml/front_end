@@ -1,0 +1,246 @@
+/* 공통 */
+
+.fix-width{
+  width:1060px;
+  margin:0 auto;
+  position:relative;
+}
+
+.inner{
+  width:1060px;
+  margin:0 auto;
+}
+
+.blind{
+  display:none;
+}
+
+.col-left{
+  float:left;
+}
+
+.col-right{
+  float:right;
+}
+
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+/* //공통  */
+
+
+/* header */
+.header{
+  height: 90px;
+}
+
+.logo{
+  float:left;
+}
+
+.logo>a{
+  display: block;
+  width: 190px;
+  height: 90px;
+  text-indent: -9999em;
+  background: url("../images/logo.png") no-repeat;
+}
+
+.gnb{
+  float: right;
+  right:-42px;
+  position: relative;
+}
+
+.gnb-depth1{
+  margin-top:8px;
+}
+
+.gnb-depth1-item{
+  float: left;
+  width:180px;
+  text-align: center;
+  padding: 30px 0 0;
+  background:#f6f6e8 url(../images/gnbBg.png) no-repeat;
+  position: relative;
+}
+
+
+.gnb-depth1-item:nth-child(1){
+  right:-68px;
+}
+
+.gnb-depth1-item:nth-child(2){
+  right:-45px;
+}
+
+.gnb-depth1-item:nth-child(3){
+  right:-23px;
+}
+
+
+.gnb-depth1-link{
+  display:inline-block;
+  text-indent: -9999em;
+
+}
+
+/* 임시*/
+/*.gnb-depth2{*/
+  /*display: none;*/
+/*}*/
+/* 임시*/
+
+
+.gnb-depth1-item:nth-child(1) .gnb-depth1-link{
+  width:94px;
+  height: 16px;
+  background: #f6f6e8 url("../images/menu1.png") no-repeat 0 0;
+
+}
+
+.gnb-depth1-item:nth-child(2) .gnb-depth1-link{
+  width:94px;
+  height: 16px;
+  background: #f6f6e8 url("../images/menu2.png") no-repeat 0 0;
+}
+
+.gnb-depth1-item:nth-child(3) .gnb-depth1-link{
+  width:57px;
+  height: 16px;
+  background: #f6f6e8 url("../images/menu3.png") no-repeat 0 0;
+}
+
+.gnb-depth1-item:nth-child(4) .gnb-depth1-link{
+  width:97px;
+  height: 16px;
+  background: #f6f6e8 url("../images/menu4.png") no-repeat 0 0;
+}
+
+
+.gnb-depth2{
+  padding:53px 0 25px;
+}
+
+.gnb-depth2-item{
+  padding:0 0 15px 0;
+}
+
+.gnb-depth2-link{
+  font-size:14px;
+  color:#666;
+}
+
+/* //header */
+
+
+/* visual */
+
+.visual{
+  height: 420px;
+  position: relative;
+}
+
+
+.visual-list{
+  height:420px;
+}
+
+.visual-item{
+  position:relative;
+  height: 420px;
+  background: url(../images/visual0.jpg) no-repeat 0 -110px;
+  background-size: 1060px auto;
+}
+
+.visual-text{
+  width: 560px;
+  height: 208px;
+  background: url(../images/vis_txtbg.png) no-repeat 0 0;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin:-104px 0 0 -280px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*// visual*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
