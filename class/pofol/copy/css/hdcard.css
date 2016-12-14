@@ -1,4 +1,8 @@
-
+.fix-width{
+  width:1146px;
+  margin:0 auto;
+  position:relative;
+}
 
 .header{
   width: 100%;
@@ -96,11 +100,28 @@
 }
 
 
-
-.visual-title{
- background: url("../img/bg_main01.png");
+.visual{
+  height: 560px;
+  position: relative;
 }
 
+.visual-list{
+  height: 560px;
+}
+
+.visual-list-item{
+  position: absolute;
+  height: 560px;
+  background: url("../img/bg_main01.png") no-repeat 0;
+  background-size: 1146px 560px;
+}
+
+.visual-text{
+  width:1146px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
 
 
 
